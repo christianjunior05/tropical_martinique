@@ -834,6 +834,113 @@
       align-items: center;
     }
   }
+  /* style.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a,button{
+    cursor: pointer;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 250px;
+}
+
+.navigation{
+    position: fixed;
+    right: -500px;
+    width: 350px;
+    height: 100%;
+    background-color: #000;
+    transition: .5s;
+}
+
+.navigation ul li{
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 1.2em; /* Taille de police légèrement réduite */
+    padding: 15px 30px; /* Réduire l'espacement autour du texte */
+    border-bottom: 1pt solid #252525;
+}
+
+.hamburger, .bar{
+    position: fixed;
+}
+
+.hamburger{
+    display: block;
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: 0 0;
+}
+
+.bar{
+    top: 3px;
+    background: #000;
+    width: 100%;
+    height: 4px;
+    transition: all .3s ease-in;
+}
+
+#bar2{
+    top: 11px;
+}
+
+#bar3{
+    top: 19px;
+}
+
+.navigation.active{
+    right: 0;
+}
+
+.hamburger.open #bar1{
+    background-color: #fff;
+    transform: rotate(45deg) translate(6px, 5px);
+}
+
+.hamburger.open #bar2{
+    background-color: transparent;
+}
+
+.hamburger.open #bar3{
+    background-color: #fff;
+    transform: rotate(-45deg) translate(6px, -5px);
+}
+
+/* Ajoutez ces styles pour aligner le titre avec le menu */
+.left {
+    width: auto; /* Ajustez la largeur automatiquement */
+    float: none; /* Supprimez le flottement */
+    text-align: left; /* Alignez le texte à droite */
+    margin-top: 10px;
+    font-size: 15px; /* Ajoutez une marge à droite pour l'espace */
+}
+
+.nabv{
+    justify-content: space-between;
+}
+/* Ajoutez ces styles pour rendre le titre responsive */
+@media screen and (max-width: 768px) {
+    .left {
+        text-align: center; /* Alignez le texte au centre sur les écrans plus petits */
+        margin: 0; /* Supprimez les marges */
+    }
+}
+
   
   
   
