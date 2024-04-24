@@ -623,39 +623,8 @@
     display: flex;
   }
   
-  .span-qodef-shortcode-18 {
-    grid-column-gap: 10px;
-    background-color: #34393e;
-    border: 1px solid #34393e;
-    border-radius: 45px;
-    justify-content: flex-end;
-    align-items: center;
-    width: 72px;
-    padding: 13px 11px;
-    text-decoration: none;
-    display: flex;
-  }
-  
-  .vectors-wrapper-37 {
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-    width: 41px;
-    height: 45px;
-    text-decoration: none;
-    display: flex;
-  }
-  
-  .il-sagit-dun-rendez-vous-domicile-au-cours-duquel-nous-changeons-sur-votre-projet-vos-envies-de-ce-qui-est-r-alisable-ou-non-vous-tes-conseill-sur-la-meilleure-mani-re-doptimiser-votre-espace-pour-le-mettre-en-valeur-la-suite-de-cet-entretien-un-compte-rendu-d-taill-de-la-visite-crit-graphique-vous-sera-transmis-par-e-mail-tarifs-rdv---conseils-sur-place-compte-rendu-d-taill-de-la-visite-rdv---conseils-sur-place-la-mission-est-factur-e-195-ttc-pour-1-heure-de-visite-puis-90-la-demi-heure-suppl-mentaire-6 {
-    color: #34393e;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px;
-    text-decoration: none;
-  }
 
+ 
   
   @media screen and (max-width: 991px) {
   
