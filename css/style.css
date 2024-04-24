@@ -854,7 +854,7 @@ nav{
 }
 
 .navigation{
-    position: fixed;
+    position: flex;
     right: -500px;
     width: 350px;
     height: 100%;
@@ -913,7 +913,7 @@ nav{
 }
 
 .hamburger.open #bar2{
-    background-color: transparent;
+    background-color: transparent;  
 }
 
 .hamburger.open #bar3{
