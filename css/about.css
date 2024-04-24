@@ -2247,56 +2247,7 @@
     display: flex;
   }
   
-  ._2024-tropical-concept-tous-droits-r-serv-s-3 {
-    color: #000;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    text-decoration: none;
-  }
-  
-  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat-0 {
-    color: #212121;
-    text-align: right;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px;
-    text-decoration: none;
-  }
-  
-  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat-3 {
-    color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: none;
-  }
-  
-  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat-1 {
-    color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px;
-    text-decoration: none;
-  }
-  
-  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat-4 {
-    color: #212121;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: underline;
-  }
+
   
   @media screen and (max-width: 991px) {
     .navbar-logo-left, .navbar-logo-left-2 {
