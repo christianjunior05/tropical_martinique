@@ -890,17 +890,7 @@
     text-decoration: none;
     display: flex;
   }
-  
-  /* .hero-heading-left {
-    grid-column-gap: 80px;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    padding: 64px 24px;
-    text-decoration: none;
-    display: flex;
-  } */
-  
+
   
   .column {
     grid-row-gap: 24px;
@@ -912,25 +902,6 @@
     display: flex;
   }
   
-  .title-copy-goes-here-be-awesome {
-    color: #34393e;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 66px;
-    font-weight: 500;
-    line-height: 72px;
-    text-decoration: none;
-  }
-  
-  .text-6 {
-    color: #eae7e0;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 150%;
-    text-decoration: none;
-  }
   
   .frame-12 {
     grid-column-gap: 10px;
@@ -939,22 +910,6 @@
     align-items: center;
     text-decoration: none;
     display: flex;
-  }
-  
-  .https-lottiefiles-com-animations-scroll-down-nudge-us9qgp7rrr {
-    object-fit: cover;
-  }
-  
-  .heading-1-link-tropical-concept-7 {
-    color: #34393e;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 19px;
-    font-weight: 500;
-    line-height: 28.8px;
-    text-decoration: none;
   }
   
   .column-2 {

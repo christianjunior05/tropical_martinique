@@ -1,0 +1,690 @@
+:root {
+    --white: white;
+    --black: black;
+  }
+  
+  .text {
+    color: #34393e;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    text-decoration: none;
+  }
+  
+  .form {
+    grid-column-gap: 10px;
+    border: 1px solid #000;
+    border-radius: 31px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 473px;
+    padding: 13px 26px;
+    text-decoration: none;
+    display: flex;
+    box-shadow: 0 0 #fff;
+  }
+  
+  .container {
+    grid-column-gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .image-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 230px;
+    display: flex;
+  }
+  
+  .image {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 226px;
+    display: flex;
+  }
+  
+  .wireframe---2 {
+    background-color: #eae7e0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbar-logo-left-3 {
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 73px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+  }
+  
+  .navbar-menu-2 {
+    grid-column-gap: 32px;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .hero-heading-left-2 {
+    grid-column-gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 64px 24px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .heading-1-link-tropical-concept-9 {
+    color: #34393e;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-decoration: none;
+  }
+  
+  .content {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .hero-heading-right {
+    grid-column-gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 64px 24px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .contact-form {
+    grid-row-gap: 64px;
+    background-color: #34393e;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 64px 24px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .form-wrapper {
+    grid-row-gap: 31px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  ._2024-tropical-concept-tous-droits-r-serv-s-3 {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-decoration: none;
+  }
+  
+  .container-8 {
+    grid-column-gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .content-4 {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .title-copy-goes-here-be-awesome-4 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 72px;
+    text-decoration: none;
+  }
+  
+  .team-circles {
+    grid-row-gap: 64px;
+    background-color: #34393e;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 64px 24px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .container-14 {
+    grid-row-gap: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .image-16 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 263px;
+    height: 663px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .title-section-3 {
+    grid-row-gap: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 530px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .column-15 {
+    grid-column-gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 574px;
+    display: flex;
+  }
+  
+  .image-wrapper-16 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 574px;
+    display: flex;
+  }
+  
+  .navbarcontainer-7 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 73px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .navbar-content-7 {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .vectors-wrapper-33 {
+    object-fit: cover;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 16px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .frame-497 {
+    grid-row-gap: 6px;
+    background-color: #fff;
+    border-radius: 31px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .vectors-wrapper-34 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 10px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .column-16 {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 455px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .text-31 {
+    color: #eae7e0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  
+  .frame-498 {
+    grid-column-gap: 10px;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .https-lottiefiles-com-animations-scroll-down-nudge-us9qgp7rrr-5 {
+    object-fit: cover;
+  }
+  
+  .container-20 {
+    grid-row-gap: 64px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .text-32 {
+    color: #eae7e0;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 66px;
+    font-weight: 700;
+    line-height: 72px;
+    text-decoration: none;
+  }
+  
+  .text-33 {
+    color: #eae7e0;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+  }
+  
+  .columns-6 {
+    grid-column-gap: 48px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .card-6 {
+    grid-row-gap: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .image-wrapper-18 {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 270px;
+    height: 270px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .image-20 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 270px;
+    height: 270px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .content-7 {
+    grid-row-gap: 16px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .info-5 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .text-34 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  
+  .text-35 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  
+  .description-5 {
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+  }
+  
+  .container-21 {
+    grid-column-gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .image-21 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 601px;
+    display: flex;
+  }
+  
+  .text-36 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 54px;
+    text-decoration: none;
+  }
+  
+  .il-sagit-dun-rendez-vous-domicile-au-cours-duquel-nous-changeons-sur-votre-projet-vos-envies-de-ce-qui-est-r-alisable-ou-non-vous-tes-conseill-sur-la-meilleure-mani-re-doptimiser-votre-espace-pour-le-mettre-en-valeur-la-suite-de-cet-entretien-un-compte-rendu-d-taill-de-la-visite-crit-graphique-vous-sera-transmis-par-e-mail-tarifs-rdv---conseils-sur-place-compte-rendu-d-taill-de-la-visite-rdv---conseils-sur-place-la-mission-est-factur-e-195-ttc-pour-1-heure-de-visite-puis-90-la-demi-heure-suppl-mentaire-5 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+  }
+  
+   .container-24 {
+    grid-column-gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .frame-499 {
+    grid-column-gap: 10px;
+    background-color: #cecbc4;
+    border-radius: 31px;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 26px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .heading-1-link-tropical-concept-13 {
+    color: #34393e;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-decoration: none;
+  }
+  
+  .frame-500 {
+    grid-row-gap: 43px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 423px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .frame-501 {
+    grid-column-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 929px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .text-37 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration: none;
+  }
+  
+  .frame-502 {
+    grid-column-gap: 36px;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .span-qodef-shortcode-16 {
+    grid-column-gap: 10px;
+    background-color: #34393e;
+    border: 1px solid #34393e;
+    border-radius: 45px;
+    flex: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .vectors-wrapper-35 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .span-qodef-shortcode-17 {
+    grid-column-gap: 10px;
+    background-color: #34393e;
+    border: 1px solid #34393e;
+    border-radius: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 72px;
+    padding: 15px 7px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .vectors-wrapper-36 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 42px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .span-qodef-shortcode-18 {
+    grid-column-gap: 10px;
+    background-color: #34393e;
+    border: 1px solid #34393e;
+    border-radius: 45px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 72px;
+    padding: 13px 11px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .vectors-wrapper-37 {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 45px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  .il-sagit-dun-rendez-vous-domicile-au-cours-duquel-nous-changeons-sur-votre-projet-vos-envies-de-ce-qui-est-r-alisable-ou-non-vous-tes-conseill-sur-la-meilleure-mani-re-doptimiser-votre-espace-pour-le-mettre-en-valeur-la-suite-de-cet-entretien-un-compte-rendu-d-taill-de-la-visite-crit-graphique-vous-sera-transmis-par-e-mail-tarifs-rdv---conseils-sur-place-compte-rendu-d-taill-de-la-visite-rdv---conseils-sur-place-la-mission-est-factur-e-195-ttc-pour-1-heure-de-visite-puis-90-la-demi-heure-suppl-mentaire-6 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+  }
+  
+  .il-sagit-dun-rendez-vous-domicile-au-cours-duquel-nous-changeons-sur-votre-projet-vos-envies-de-ce-qui-est-r-alisable-ou-non-vous-tes-conseill-sur-la-meilleure-mani-re-doptimiser-votre-espace-pour-le-mettre-en-valeur-la-suite-de-cet-entretien-un-compte-rendu-d-taill-de-la-visite-crit-graphique-vous-sera-transmis-par-e-mail-tarifs-rdv---conseils-sur-place-compte-rendu-d-taill-de-la-visite-rdv---conseils-sur-place-la-mission-est-factur-e-195-ttc-pour-1-heure-de-visite-puis-90-la-demi-heure-suppl-mentaire-7 {
+    color: #34393e;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 991px) {
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-logo-left-3 {
+      padding-right: 0;
+    }
+  
+    .navbar-menu-2 {
+      max-width: unset;
+    }
+  
+     .container-8, .columns-6, .container-21, .container-24 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
