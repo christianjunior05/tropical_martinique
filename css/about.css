@@ -1,7 +1,4 @@
-:root {
-    --white: white;
-    --black: black;
-  }
+
   .column-9{
     position: relative;
     width: 100%;
@@ -135,26 +132,7 @@
     text-decoration: none;
     display: flex;
   }
-  
-  .une-prestation-domicile-des-solutions-sur-mesures {
-    color: #34393e;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 66px;
-    font-weight: 500;
-    line-height: 72px;
-    text-decoration: none;
-  }
-  
-  .vectors-wrapper-2 {
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-    width: 141px;
-    height: 56px;
-    text-decoration: none;
-    display: flex;
-  }
+
   
   .frame-427 {
     grid-row-gap: 14px;
@@ -171,17 +149,7 @@
     object-fit: cover;
   }
   
-  .heading-1-link-tropical-concept-2 {
-    color: #34393e;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 38px;
-    text-decoration: none;
-  }
-  
+ 
   .frame-458 {
     grid-row-gap: 76px;
     flex-direction: column;
@@ -230,47 +198,6 @@
     min-height: 533px;
   }
   
-  .vectors-wrapper-3 {
-    object-fit: cover;
-    flex: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    display: flex;
-  }
-  
-  .error-62267a08-c02c-9128-987e-261d318eac75 {
-    color: #fffbdd;
-    text-align: center;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 17.15px;
-    text-decoration: none;
-  }
-  
-  .heading-1-link-tropical-concept-3 {
-    color: #fffbdd;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: none;
-  }
-  
-  .heading-1-link-tropical-concept-4 {
-    color: #34393e;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: none;
-  }
   
   .div-image-bar__flex {
     grid-column-gap: 10px;
@@ -295,55 +222,6 @@
   .after {
     opacity: .2;
     background-color: #372e0f;
-  }
-  
-  .heading-3-int-rieur {
-    color: #fffbdd;
-    text-align: center;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 41px;
-    font-weight: 700;
-    line-height: 17.15px;
-    text-decoration: none;
-    position: absolute;
-    top: 454px;
-    left: 26px;
-  }
-  
-  .heading-1-link-tropical-concept-5 {
-    color: #fffbdd;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    text-decoration: none;
-    position: absolute;
-    top: 31px;
-    left: 26px;
-  }
-  
-  .div-image-bar__item-3 {
-    background-color: rgba(0, 0, 0, .2);
-    background-image: url('../images/div.image-bar__item_1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    min-height: 533px;
-  }
-  
-  .vectors-wrapper-4 {
-    object-fit: cover;
-    flex: 0 auto;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    text-decoration: none;
-    display: flex;
   }
   
   .frame-470 {
@@ -2188,6 +2066,115 @@
       align-items: center;
     }
   }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  a,button{
+    cursor: pointer;
+  }
+  
+  nav{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 250px;
+  }
+  
+  .navigation{
+    position: fixed;
+    right: -500px;
+    width: 350px;
+    height: 100%;
+    background-color: #000;
+    transition: .5s;
+  }
+  
+  .navigation ul li{
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 1.2em; /* Taille de police légèrement réduite */
+    padding: 15px 30px; /* Réduire l'espacement autour du texte */
+    border-bottom: 1pt solid #252525;
+  }
+  
+  .hamburger, .bar{
+    position: fixed;
+  }
+  
+  .hamburger{
+    display: block;
+    top: 5%;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    border: 0;
+    background: 0 0;
+  }
+  
+  .bar{
+    top: 3px;
+    background: #000;
+    width: 100%;
+    height: 4px;
+    transition: all .3s ease-in;
+  }
+  
+  #bar2{
+    top: 11px;
+    width: 50%;
+  margin-left: 50%;
+  }
+  
+  #bar3{
+    top: 19px;
+    width: 100%;
+  }
+  
+  .navigation.active{
+    right: 0;
+  }
+  
+  .hamburger.open #bar1{
+    background-color: #fff;
+    transform: rotate(45deg) translate(6px, 5px);
+  }
+  
+  .hamburger.open #bar2{
+    background-color: transparent;
+  }
+  
+  .hamburger.open #bar3{
+    background-color: #fff;
+    transform: rotate(-45deg) translate(6px, -5px);
+  }
+  
+  /* Ajoutez ces styles pour aligner le titre avec le menu */
+  .left {
+    width: auto; /* Ajustez la largeur automatiquement */
+    float: none; /* Supprimez le flottement */
+    text-align: left; /* Alignez le texte à droite */
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 15px; /* Ajoutez une marge à droite pour l'espace */
+  }
+  
+  /* Ajoutez ces styles pour rendre le titre responsive */
+  @media screen and (max-width: 768px) {
+    .left {
+        text-align: center; /* Alignez le texte au centre sur les écrans plus petits */
+        margin: 0; /* Supprimez les marges */
+    }
+  }
+  
+  
   
   
   
