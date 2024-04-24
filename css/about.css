@@ -2160,22 +2160,6 @@
     display: flex;
   }
   
- 
-  
-  .vectors-wrapper-20 {
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
-    width: 36px;
-    height: 40px;
-    text-decoration: none;
-    display: flex;
-  }
-  
-
-
-  
-
   
   @media screen and (max-width: 991px) {
     .navbar-logo-left, .navbar-logo-left-2 {
