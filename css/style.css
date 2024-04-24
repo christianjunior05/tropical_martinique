@@ -869,10 +869,13 @@ nav{
 
 #bar2{
   top: 11px;
+  width: 50%;
+margin-left: 50%;
 }
 
 #bar3{
   top: 19px;
+  width: 100%;
 }
 
 .navigation.active{
@@ -893,7 +896,6 @@ nav{
   transform: rotate(-45deg) translate(6px, -5px);
 }
 
-
 /* Ajoutez ces styles pour aligner le titre avec le menu */
 .left {
   width: auto; /* Ajustez la largeur automatiquement */
@@ -911,3 +913,5 @@ nav{
       margin: 0; /* Supprimez les marges */
   }
 }
+
+
